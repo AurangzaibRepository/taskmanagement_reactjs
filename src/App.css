@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#dv-main {
+  height: 88%;
+  overflow-y: auto;
+  padding: 45px 60px;
+}
+
+.dv-box {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 2px 3px 6px #888;
+  padding: 16px 28px;
+}
+
+.float-right {
+  float: right;
+}
+
+.page-title {
+  color: #333;
+  font-size: 24px;
+}
+
+.lnk-add {
+  background: #333;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  padding: 6px 0px;
+  text-align: center;
+  text-decoration: none;
+  width: 75px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

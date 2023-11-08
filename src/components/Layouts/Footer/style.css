@@ -1,0 +1,14 @@
+#dv-footer {
+    background: #626670;
+    display: table;
+    height: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+#dv-footer label {
+  color: #fff;
+  display: table-cell;
+  font-size: 17px;
+  vertical-align: middle;
+}

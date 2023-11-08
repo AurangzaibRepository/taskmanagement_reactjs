@@ -1,0 +1,44 @@
+#dv-navbar {
+    background-color: #58a36a;
+    display: table;
+    height: 7%;
+    width: 100%;
+}
+
+#dv-navbar > div {
+    display: table-cell;
+    padding: 0px 10%;
+    vertical-align: middle;
+}
+
+#dv-navbar #navbar-title {
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#dv-menu {
+    float: right;
+}
+
+#dv-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#dv-menu li a {
+  color: #000;
+  font-size: 22px;
+  padding: 0px 15px;
+  text-decoration: none;
+}
+
+#dv-menu ul li:not(:last-child) {
+    border-right: 1px solid;
+}
+
+#dv-menu ul a:hover {
+    background: #fff;
+}
